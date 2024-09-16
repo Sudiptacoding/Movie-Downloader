@@ -9,6 +9,7 @@ import {
   fetchTopRatedMovies,
   fetchRecentMonthMovies,
 } from '../api';
+import SearchMovie from '../components/SearchMovie';
 
 const HomePage = () => {
   // Create refs for each section
@@ -52,6 +53,7 @@ const HomePage = () => {
           <MovieSection title="Recent Month Movies" fetchMovies={fetchRecentMonthMovies} />
         </section>
       </main>
+
     </div>
   );
 };

@@ -7,7 +7,7 @@ import 'swiper/css';
 
 const MovieSection = ({ title, fetchMovies }) => {
   const [movies, setMovies] = useState([]);
-
+console.log(movies)
   useEffect(() => {
     const loadMovies = async () => {
       const moviesData = await fetchMovies();
