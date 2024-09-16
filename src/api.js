@@ -87,3 +87,6 @@ export const fetchSearchMovies = async (query) => {
       return [];
     }
   };
+
+
+  
